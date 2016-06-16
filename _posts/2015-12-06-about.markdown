@@ -1,0 +1,21 @@
+---
+layout: post
+title: About
+date: '2015-12-06 17:43:23'
+---
+
+![Joel Taylor](/content/images/2015/12/AAEAAQAAAAAAAAcGAAAAJDM0M2QwZWIxLTA5ZDAtNDVhZS1iMzViLTg1NTZjNmJkMmIyOQ-2.jpg)
+
+My name is Joel.
+
+I'm a software engineer and continual learner. 
+
+These days, I work over at [Code School](http://codeschool.com) where I spend most of my time maintaining a large Rails application and implementing new features. In addition, I authored a course on [MongoDB](https://www.codeschool.com/courses/the-magical-marvels-of-mongodb).
+
+I'm currently a contributor and maintainer for [JavaScript.com](http://JavaScript.com) -  an open source resource.
+
+For me, learning has never stopped and I don't plan to slow down my self betterment. I love sitting down to learn a new technology or explore a topic I don't yet grasp. 
+
+These days, my free time has been spent exploring machine learning and design patterns.
+
+When I'm not behind the keyboard, I enjoy hammock camping, playing the banjo, and reading Russian literature.

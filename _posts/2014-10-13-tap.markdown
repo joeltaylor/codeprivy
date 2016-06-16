@@ -1,0 +1,43 @@
+---
+layout: post
+title: "#tap"
+date: '2014-10-13 01:53:00'
+tags:
+- ruby
+---
+
+Ruby's `#tap` has been around since version 1.9. A lot has been written about use cases and there are some neat tricks you can do with it.
+
+If you're new to `#tap` The docs provide this definition for the method -
+> Yields self to the block, and then returns self. The primary purpose of this method is to “tap into” a method chain, in order to perform operations on intermediate results within the chain.
+
+Here's a quick and easy example to show the benefit.
+
+```ruby
+user = User.new
+user.name = "Joel"
+user.save!
+
+# This is the equivalent to the code below
+
+User.new.tap do |u|
+  u.name = "Joel"
+  u.save!
+end
+```
+Whether the usage of `#tap` is more readable is debatable and most certainly depends on the context. Generally, I favor using local variables when dealing with an object unless not doing so can clarify intention.
+
+Some [people](http://moonbase.rydia.net/mental/blog/programming/eavesdropping-on-expressions) use it for debugging method chains, which can prove useful as well.
+```ruby
+method.does_something.tap{|o| puts o}.does_another_thing
+```
+
+Recently, I found a use case that I really, really love. Check out this way of stubbing a method in RSpec.
+```ruby
+User.new.tap do |user|
+  allow(User).to receive(:new).and_return user
+  allow(user).to receive(:save).and_return(true)
+end
+```
+We stub _and_ get the object back to use with our assertions. 
+
