@@ -1,7 +1,6 @@
 ---
 layout: post
 title: About
-date: '2015-12-06 17:43:23'
 ---
 
 ![Joel Taylor](/content/images/2015/12/AAEAAQAAAAAAAAcGAAAAJDM0M2QwZWIxLTA5ZDAtNDVhZS1iMzViLTg1NTZjNmJkMmIyOQ-2.jpg)
