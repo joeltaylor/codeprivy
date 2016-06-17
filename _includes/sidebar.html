@@ -1,11 +1,7 @@
 <nav>
   <h2>I'm <a href="/about/">{{ site.data.theme.name }}</a>.</h2>
   <a href="/">
-    {% if site.data.theme.social.gravatar %}
-    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
-    {% else %}
     <img src="/icon.png" id="logo" class="scale-with-grid" alt="Blog logo"/>
-    {% endif %}
   </a>
   <div id="bio">
     <p>Burgeoning towards better development.</p>

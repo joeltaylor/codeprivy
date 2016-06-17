@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: About
 ---
 
-![Joel Taylor](/content/images/2015/12/AAEAAQAAAAAAAAcGAAAAJDM0M2QwZWIxLTA5ZDAtNDVhZS1iMzViLTg1NTZjNmJkMmIyOQ-2.jpg)
+<img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" alt="Joel"/>
 
 My name is Joel.
 
