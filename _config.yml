@@ -1,5 +1,8 @@
 # General Jekyll Config
-highlighter: pygments
+highlighter: rogue
+kramdown:
+  input: GFM
+  coderay_line_numbers: 
 url: http://codeprivy.com
 permalink: pretty
 lsi: false

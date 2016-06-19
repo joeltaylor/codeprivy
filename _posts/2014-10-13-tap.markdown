@@ -28,11 +28,13 @@ end
 Whether the usage of `#tap` is more readable is debatable and most certainly depends on the context. Generally, I favor using local variables when dealing with an object unless not doing so can clarify intention.
 
 Some [people](http://moonbase.rydia.net/mental/blog/programming/eavesdropping-on-expressions) use it for debugging method chains, which can prove useful as well.
+
 ```ruby
 method.does_something.tap{|o| puts o}.does_another_thing
 ```
 
 Recently, I found a use case that I really, really love. Check out this way of stubbing a method in RSpec.
+
 ```ruby
 User.new.tap do |user|
   allow(User).to receive(:new).and_return user
