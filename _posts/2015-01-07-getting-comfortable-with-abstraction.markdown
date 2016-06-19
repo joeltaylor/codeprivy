@@ -6,8 +6,7 @@ date: '2015-01-07 16:00:00'
 
 I know I'm not alone when it comes to getting an "itch" whenever I come across unfamiliar code. Whether it's new syntax or confusing code, the mystery is just begging to be exposed.
 
-I experienced this tension _a lot_ when I first started at Code School since the application was larger than anything I had worked with previously. Often times, I felt like I was living this comic -
-![abstraction](/content/images/2015/12/abstraction.png)
+I experienced this tension _a lot_ when I first started at Code School since the application was larger than anything I had worked with previously. 
 
 I learned a lot by not accepting abstractions, but at the same time, following every abstraction isn't sustainable and balance is needed. Without balance, I'd easily end up in the Rails source code on a daily basis. There's a time to ask "why?" and a time to accept abstractions for face value.
 
