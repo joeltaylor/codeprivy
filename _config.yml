@@ -1,9 +1,4 @@
 # General Jekyll Config
-kramdown:
-  input: GFM
-
-  coderay_line_numbers:
-
 
 url: http://codeprivy.com
 permalink: pretty
