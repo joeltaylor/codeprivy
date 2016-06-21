@@ -154,7 +154,3 @@ end
 I get that code should be self-documenting and understand the notion behind quality code
 not needing documentation, but why pass on an opportunity to make code explicitly
 obvious?
-
-More and more I've begun to realize that taking shortcuts to save time now generally leads,
-to soaking up my time or another developer's when it comes time to maintain
-the debt introduced by my obscurities.
