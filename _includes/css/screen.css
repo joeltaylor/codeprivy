@@ -107,17 +107,16 @@ nav h1, nav h2 {
   text-align: center;
 }
 
-#bio {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  border: dotted #ddd;
-  border-width: 1px 0;
-  padding-top: 15px;
+#banner {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 600px;
 }
 
 #social {
   margin-bottom: 10px;
   font-size: 13px;
+  float: left;
 }
 
 #post pre {
@@ -223,9 +222,10 @@ i.fa-hn {
 }
 
 .home {
-  font-size: 24px;
+  font-size: 24px !important;
   float: right;
   color: #AAA;
+  padding-top: 10px;
 }
 
 .home:hover {

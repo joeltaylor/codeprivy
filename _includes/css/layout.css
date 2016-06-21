@@ -9,9 +9,6 @@
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-	#logo {
-		font-size: 21px;
-		margin-bottom: 15px; }
 	nav .button {
 		padding: 9px 20px 11px; }
 }
