@@ -1,6 +1,28 @@
 # General Jekyll Config
 
-url: http://codeprivy.com
+gems:
+  - jekyll-seo-tag
 permalink: pretty
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+# SEO stuff
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: Code Privy
+      description: Burgeoning towards better development.
+      logo: /icon.png
+      url: http://codeprivy.com
+      twitter:
+        username: joeltayl
+      author:
+        picture: http://www.gravatar.com/avatar/e7512c0bba9f09a9aec6786a7a177fe5?s=200
+        twitter: joeltayl
+      image:
+        twitter: http://codeprivy.com/icon.png
+        facebook: http://codeprivy.com/icon.png
+        height: 100
+        width: 100

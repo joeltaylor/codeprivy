@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Obfuscating the Obvious
+description: A look into how variable abbreviations can make idiomatic code cryptic.
 date: '2016-06-21'
 tags:
 - Ruby
