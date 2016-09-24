@@ -2,6 +2,7 @@
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 permalink: pretty
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
