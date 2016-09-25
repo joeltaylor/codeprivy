@@ -26,6 +26,14 @@ h1.title {
   font-weight: 800;
 }
 
+h1.title a:visited {
+  color: {{ site.data.theme.highlight_color }};
+}
+
+h1.title a:hover {
+  color: {{ site.data.theme.darker_color }};
+}
+
 h1 {
   font-size: 32px;
   line-height: 40px;
@@ -53,12 +61,12 @@ a {
 }
 
 a:hover {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.complement_color }};
   text-decoration: underline;
 }
 
 a:visited {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.complement_color }};
 }
 
 table {
@@ -116,7 +124,16 @@ nav h1, nav h2 {
 #social {
   margin-bottom: 10px;
   font-size: 13px;
-  float: left;
+  float: right;
+}
+
+#pages a {
+  font-weight: bold;
+  color: {{ site.data.theme.highlight_color }};
+}
+
+#pages a:hover {
+  color: {{ site.data.theme.darker_color }};
 }
 
 #post pre {
@@ -169,6 +186,7 @@ nav h1, nav h2 {
   color: #666;
   border-top: 4px solid #EEE;
   overflow: hidden;
+  text-align: center;
 }
 
 .aside {
@@ -201,6 +219,7 @@ nav h1, nav h2 {
   width: 29px;
   overflow: hidden;
   float: left;
+  text-decoration: none;
 }
 
 #stalker i {
@@ -208,10 +227,14 @@ nav h1, nav h2 {
   margin-right: 5px;
 }
 
-#stalker a:hover {
-  text-decoration: none;
+#stalker a:visited {
   color: {{ site.data.theme.highlight_color }};
 }
+
+#stalker a:hover {
+  color: {{ site.data.theme.darker_color }};
+}
+
 
 i.fa-hn {
   font-family: "open sans", sans-serif;
@@ -230,12 +253,6 @@ i.fa-hn {
 
 .home:hover {
   text-decoration: none;
-}
-
-.disclaimer p {
-  margin-top: 5px;
-  font-size: 11px;
-  text-align: center;
 }
 
 .footnotes {
@@ -261,4 +278,35 @@ i.fa-hn {
 sup {
   vertical-align: super;
   font-size: smaller;
+}
+
+#photo {
+  width: 20%;
+  float: left;
+  padding-right: 15px;
+  margin-bottom: 100px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+a.resume{
+  color: #FFF;
+  background-color: #7E947E;
+  text-shadow: -1px 1px #5a5a5a;
+  padding: 10px;
+  border: none;
+}
+
+.resume:hover{
+  background-color: #485448;
+  text-shadow: -1px 1px #5a5a5a;
+}
+
+@media only screen and (max-width: 959px) {
+  #photo {
+    float:left;
+    margin: 0 0 0 0;
+  }
 }

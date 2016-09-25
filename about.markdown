@@ -1,20 +1,19 @@
 ---
-layout: page
-title: About
+layout: default 
+title: About 
 ---
+{: .no-margin}
+![Joel Taylor](/photo.png){: #photo .two.columns}
 
-<img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" alt="Joel"/>
+## I am
 
-My name is Joel.
+# Joel Taylor
 
-I'm a software engineer and continual learner. 
+I'm a software engineer and continual learner — driven by an insatiable desire to foster betterment on a daily basis. 
 
-These days, I work over at [Code School](http://codeschool.com) where I spend most of my time maintaining a large Rails application and implementing new features. In addition, I authored a course on [MongoDB](https://www.codeschool.com/courses/the-magical-marvels-of-mongodb).
+Pursuing excellence in my career and craft are among my core values.
 
-I'm currently a contributor and maintainer for [JavaScript.com](http://JavaScript.com) -  an open source resource.
+These days, my spare time is spent learning C/C++ and Java with an emphasis
+on algorithm design.
 
-For me, learning has never stopped and I don't plan to slow down my self betterment. I love sitting down to learn a new technology or explore a topic I don't yet grasp. 
-
-These days, my free time has been spent exploring machine learning and design patterns.
-
-When I'm not behind the keyboard, I enjoy hammock camping, playing the banjo, and reading Russian literature.
+[Skills Overview](/skills.pdf#zoom=1){: .resume}
