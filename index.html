@@ -5,12 +5,10 @@ title: Code Privy
 
 {% for post in site.posts %}
 
-<h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-<p class="meta">
-{{ post.date | date: "%B %d, %Y" }} 
-</p>
+{% include post_title.html param=post %}
 
 <div id="post">
   {{ post.content }}
 </div>
+
 {% endfor %}
